@@ -122,6 +122,7 @@ int readDictionary(char *filename, char **pInWords)
         pInWords[i] = word;
     }
 
+    fclose(file);
     return num;
 }
 
